@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "DejaVu";
+    src:  url('./Assets/Fonts/free-fa-brands-400.woff2') format('woff2'), 
+          url('./Assets/Fonts/free-fa-regular-400.woff2') format('woff2'),
+          url('./Assets/Fonts/free-fa-solid-900.woff2') format('woff2'),
+          url('./Assets/Fonts/jizaRExUiTo99u79D0KExQ.woff2') format('woff2'),
+          url('./Assets/Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2') format('woff2'),
+}
+.navbar-default .navbar-header .imgHeader{
+    width: 107px !important;
+    height: 43px !important;
+    float: left;
+}
+.navbar-default .navbar-header a{
+    position:absolute;
+    float: right;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: "DejaVu Sans";
+    text-shadow: #1f1f1f 1px 2px 3px;
+}
+
+.navbar-default {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    background-color:#d35649 !important;
+    border-color: #d35649 !important;
+}
+.navbar-default .navbar-nav{
+    float: right !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #eee !important;
+}
+
+.navbar-default .navbar-brand{
+    color: #eee !important;
+}
+.navbar-default .navbar-nav i{
+    padding-right: 15px;
+}
+/**Ce sont les positions relative et absolute qui permettent de positionne le texte sur l'image**/
+.contenant {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.overImg{
+    padding: 0px !important;  
+}
+.overImg img{
+    width: 1049px;
+    height: 277px;
+    object-fit: cover;
+    object-position: -15px -215px;
+}
+.overImg .texte_centrer {
+    position: absolute;
+    top: 9%;
+    left: 47rem;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    color: #eee;
+    font-weight: 900;
+    font-family: "DejaVu Sans";
+    text-shadow: #1f1f1f 1px 2px 3px;
+}
+.overImg .cadre{
+    z-index: 10;
+    position: absolute;
+    background: #eee;
+    opacity: 75%;
+    transform: translateY(-50%);
+    right: 24rem;
+    left: 24rem;
+    bottom: 36px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    width: 55rem;
+}
+.overImg .input-group .inputSearch{
+    border-radius:0 !important;
+}
+.overImg .input-group-btn .searchButton{
+    background-color:#d35649;
+    color: #eee;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.cadre h3{
+    color: #1f1f1f;
+    font-family: "DejaVu Sans";
+    font-size: 13px;
+    font-weight: 400px;
+}
+ 
+.contenant{
+    text-align: center;
+}
+.glassLocation, .checkDouble {
+    width: 2rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#steps .container-fluid{
+    margin-right: 5rem ;
+    margin-left: 5rem ;
+}
+
+#steps h2 , #steps h3{
+    font-family: "DejaVu Sans";
+    font-size: 16px;
+    font-weight: 900;
+}
+#steps h2{
+    color: #d35649;
+}
+#steps h3{
+    color: #1f1f1f;
+}
+#steps p{
+    color: #98a5a5;
+}
+#nearYou {
+    background-color:#d35649;
+}
+
+#connectingYou{
+    background-color:#98a5a5;
+}
+
+#spredingLove{
+    background-color:#509bd7;
+}
+
+#nearYou, #connectingYou, #spredingLove{
+    padding: 3rem;
+    color: #eee;
+}
+
+#nearYou p, #connectingYou p{
+    width: 800px;
+    font-size:13px;
+}
+
+#spredingLove p{
+    font-size:13px;
+}
+
+.img-circle{
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    float: right;
+}
+
+#nearYou .btn-default{
+    color: #d35649;
+}
+
+#connectingYou .btn-default{
+    color: #98a5a5;
+}
+footer{
+    background-color: #1f1f1f;
+}
+
+footer h1, footer p, footer l{
+    color: #eee;
+}
+footer .color-ad-mail{
+    color: #d35649;
+}
+
+footer .color-ad-mail:hover{
+    color: #d35649;
+}
+
+footer .learnMoreColor{
+    color: #d35649;
+}
+footer .learnMoreColor:hover{
+    color: #d35649;
+    cursor: pointer;
+}
+footer .displayFlex{
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    position: relative;
+    top: 5rem;
+}
+footer img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+footer #liste1, footer #liste2{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+footer #liste1 a, footer #liste2 a{
+    text-decoration: none;
+    color: #eee;
+}
+footer #liste1 a:hover{
+    color: #98a5a5;
+}footer #liste2 a:hover{
+    color: #98a5a5;
+}
+footer #liste1{
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+}
+footer #liste2{
+    padding-left: 0.5rem;
+    padding-right: 0rem;
+}
+footer .SubConAbout{
+    padding-top: 9rem;
+}
+
+footer #liste1 l, footer #liste2 l{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#footer-socialNetwork{
+    background-color: #575a89;
+}
+#footer-socialNetwork l{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#footer-socialNetwork ul, #footer-socialNetwork span{
+    padding-top: 5px;
+} 
+
+#footer-socialNetwork span{
+    float:right;
+}
+
+footer .inputSend{
+    width: 75%;
+}
+footer .sendButton{
+    background-color: #444;
+color: #eee;
+border-top-left-radius: 4px !important;
+border-bottom-left-radius: 4px !important;
+}
+footer .inputSend{
+    border-radius: 0;
+    background-color: #1f1f1f;
+}
+
+
+/* Page Search*/
+.forms{
+    widows: 100%;
+    height: 200px;
+    background-color: #eee;
+}
